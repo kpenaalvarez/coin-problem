@@ -20,4 +20,4 @@ for quarters in range(5):  # 0 to 4 quarters
         remaining_amount += 10 * dimes  # Reset the remaining amount
     remaining_amount += 25 * quarters  # Reset the remaining amount
 
-print(ways)
+print(f"Total ways to make change for a dollar is {ways}")
